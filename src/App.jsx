@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './components/navbar';
 import Learn from './components/Learn';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './HomePage';
@@ -9,7 +8,7 @@ import Compare from './components/Compare';
 import Report from './components/Report';
 import Login from './components/Login';
 import Signup from './components/Signup';
-
+import Navbar from './components/Navbar';
 
 
 function App(){
