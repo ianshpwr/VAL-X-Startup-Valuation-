@@ -1,9 +1,26 @@
+import IncentricCircle from "./IncenctricCircle";
 function HeroSection() {
   return (
-    <div className="hero-section">
-      <h1>Welcome to Our Startup Valuation Tool</h1>
-      <p>Your one-stop solution for accurate startup valuations.</p>
-      <button className="cta-button">Get Started</button>
+    <div className="container">
+      <div className="title-logo">
+      <div>
+        <h1 style={{fontSize:'4vw'}}>Startup Valuation <br/>Made Simple</h1>
+        <p>
+          Understand, explore, and calculate startup valuations with our<br />
+          comprehensive suite of tools. From seed stage to Series C and beyond,<br />
+          we help founders and investors make sense of the numbers.
+        </p>
+        <div className="buttons">
+        <button>Calculate Your Valuation</button>
+        <button>Explore Valuation Concepts</button>
+        </div>
+      </div>
+      
+      <div><IncentricCircle/></div>
+
+      </div>
+
+    
     </div>
   );
 }

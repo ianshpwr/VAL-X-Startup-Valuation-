@@ -3,14 +3,19 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(226, 226, 255);
+  font-family: Comic Relief, system-ui;
 }
 
+a{
+  text-decoration: none;
+}
 
 .nav {
   display: flex;
   gap: 2rem;
-}
 
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -21,10 +26,14 @@ html, body {
   color: white;
   padding: 2rem;
   flex-wrap: wrap;
+  background-color: rgba(165, 165, 249, 0.623);
 }
-
-.auth {
+.title-logo{
   display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10vh 10vw;
+
+  
+  
 }
