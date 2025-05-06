@@ -38,13 +38,13 @@ function HeroSection() {
       key={i.id}
       className="data"
       style={{
-        backgroundColor: 'rgb(204, 204, 255)',
-        color: 'rgb(64, 64, 153)',
-        borderRadius: '16px',
-        padding: '24px',
-        boxShadow: '0 0 10px rgba(0,0,0,0.2)',
-        display: 'flex',
-        flexDirection: 'column',
+        backgroundColor:'rgb(204, 204, 255)',
+        color:'rgb(64, 64, 153)',
+        borderRadius:'16px',
+        padding:'24px',
+        boxShadow:'0 0 10px rgba(0,0,0,0.2)',
+        display:'flex',
+        flexDirection:'column',
         justifyContent: 'space-between',
         minHeight: '200px',
         border:'none'
