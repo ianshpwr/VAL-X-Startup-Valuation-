@@ -3,31 +3,31 @@
       "title": "Learn",
       "description": "Explore startup valuation terms and concepts in our interactive glossary.",
       "action": "Explore",
-      "route": "/learn"
+      "route": "/Learn"
     },
     {
       "title": "Explore",
       "description": "Browse through examples of startup valuations across industries.",
       "action": "Explore",
-      "route": "/examples"
+      "route": "/Explore"
     },
     {
       "title": "Calculate",
       "description": "Use our interactive calculator to estimate your startup's value.",
       "action": "Explore",
-      "route": "/calculator"
+      "route": "/Calculate"
     },
     {
       "title": "Compare",
       "description": "Compare valuations of different startups side by side.",
       "action": "Explore",
-      "route": "/compare"
+      "route": "/Compare"
     },
     {
       "title": "Report",
       "description": "Get a detailed report of your startup's valuation analysis.",
       "action": "Explore",
-      "route": "/report"
+      "route": "/Report"
     }
   ]
   

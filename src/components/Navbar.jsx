@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+
 import "../App.css";
 function Navbar() {
   return (
-    <header>
+    <header color="rgb(64, 64, 153)">
       <div className="header">
         <div className="title">
           <Link to="HomePage">Val-X</Link>
@@ -14,7 +15,7 @@ function Navbar() {
           <Link to="/Compare">Compare</Link>
           <Link to="/Report">Report</Link>
         </div>
-        <div className="auth">
+        <div className="auth" style={{ display: "flex", gap: "1vw" }}>
           <Link to="/Login" className="login">
             Login
           </Link>

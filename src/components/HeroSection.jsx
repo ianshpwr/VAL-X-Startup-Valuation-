@@ -1,6 +1,7 @@
 import IncentricCircle from "./IncenctricCircle";
 import { useNavigate } from "react-router-dom";
 import data from "../assets/data/homepagedata";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   const navigate = useNavigate();
@@ -37,16 +38,16 @@ function HeroSection() {
       key={i.id}
       className="data"
       style={{
-        backgroundColor: 'rgba(165, 165, 249, 0.623)',
+        backgroundColor: 'rgb(204, 204, 255)',
         color: 'rgb(64, 64, 153)',
         borderRadius: '16px',
         padding: '24px',
         boxShadow: '0 0 10px rgba(0,0,0,0.2)',
-        border: '1px solid #2c2c2c',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
         minHeight: '200px',
+        border:'none'
       }}
     >
       <div>
@@ -54,7 +55,7 @@ function HeroSection() {
         <p style={{fontSize:'14px',color:'rgb(64, 64, 153)'}}>{i.description}</p>
       </div>
       <div style={{marginTop: '20px',fontWeight: 'bold'}}>
-        Explore &rarr;
+        <Link to={i.route}>Explore &rarr;</Link>
       </div>
     </div>
   ))}
