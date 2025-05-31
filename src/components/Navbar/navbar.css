@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1f1f1f;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-cont{
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  position: sticky;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo{
+  font-size: 2rem;
+
+  color: #fff;
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+
+}
