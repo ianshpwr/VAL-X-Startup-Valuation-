@@ -1,0 +1,62 @@
+[
+  {
+    "term": "Pre-money Valuation",
+    "category": "valuation",
+    "definition": "The valuation of a company before external funding or the latest round of funding."
+  },
+  {
+    "term": "Post-money Valuation",
+    "category": "valuation",
+    "definition": "The valuation of a company after external funding or the latest round of funding."
+  },
+  {
+    "term": "Burn Rate",
+    "category": "metrics",
+    "definition": "The rate at which a startup spends its venture capital to finance overhead costs before generating positive cash flow."
+  },
+  {
+    "term": "CAC (Customer Acquisition Cost)",
+    "category": "metrics",
+    "definition": "The cost to acquire a new customer, calculated by dividing total acquisition costs by the number of new customers."
+  },
+  {
+    "term": "LTV (Lifetime Value)",
+    "category": "metrics",
+    "definition": "The predicted revenue a customer will generate throughout their relationship with a company."
+  },
+  {
+    "term": "Term Sheet",
+    "category": "legal",
+    "definition": "A non-binding agreement outlining the basic terms and conditions of an investment."
+  },
+  {
+    "term": "Convertible Note",
+    "category": "financing",
+    "definition": "A short-term debt that converts into equity at a future funding round."
+  },
+  {
+    "term": "SAFE (Simple Agreement for Future Equity)",
+    "category": "financing",
+    "definition": "An investment instrument providing rights to future equity without determining a specific price per share at the time of investment."
+  },
+  {
+    "term": "Dilution",
+    "category": "financing",
+    "definition": "The decrease in ownership percentage of existing shareholders when new shares are issued."
+  },
+  {
+    "term": "Cap Table",
+    "category": "legal",
+    "definition": "A spreadsheet showing the equity capitalization of a startup, listing all securities and their owners."
+  },
+  {
+    "term": "Runway",
+    "category": "metrics",
+    "definition": "The amount of time a startup has before it runs out of cash, assuming current income and expense levels stay constant."
+  },
+  {
+    "term": "Traction",
+    "category": "metrics",
+    "definition": "Evidence of market validation and customer demand for a product or service."
+  }
+]

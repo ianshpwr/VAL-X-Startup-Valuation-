@@ -8,8 +8,9 @@ function Navbar() {
             <div className="nav-cont">
                 <div className="logo">Val X</div>
                 <div className="nav">
-                    <Link to="/about">Features</Link>
-                    <Link to="/valuation">How It Works</Link>
+                    <Link to="/learn">Learn</Link>
+                    <Link to="/howitworks">How It Works</Link>
+                    <Link to="/browse">Browse</Link>
                     <Link to="/login">Login</Link>
                 </div>
             </div>

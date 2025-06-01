@@ -1,0 +1,19 @@
+.learn{
+    height: 100vh;
+}
+.learn-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.learnheader{
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media (max-width: 1024px) {
+    .learn-content {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
