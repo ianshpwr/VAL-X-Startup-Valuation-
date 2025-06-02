@@ -5,6 +5,7 @@ import Landingpage from "./components/LandingPage/Landingpage";
 import Howitworks from "./components/Howitworks/Howitworks";
 import Calculate from "./components/Calculate/Calculate";
 import Auth from "./components/Auth/Auth";
+import Browse from "./components/Browse/Browse";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/howitworks" element={<Howitworks />} />
         <Route path="/calculate" element={<Calculate />} />
         <Route path="/login" element={<Auth />} />
+        <Route path="/browse" element={<Browse />} />
         {/* Add more routes as needed */}
     </Routes>
     </div>
