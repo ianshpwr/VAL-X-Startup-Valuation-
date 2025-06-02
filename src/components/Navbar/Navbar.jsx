@@ -13,7 +13,6 @@ function Navbar() {
             const { data: { user } } = await supabase.auth.getUser();
             setUser(user);
         };
-
         getUser();
     }, []);
 
@@ -29,7 +28,7 @@ function Navbar() {
             console.error("Logout error:", error.message);
         }
     };
-    
+
     return (
         <nav className="navbar">
             <div className="nav-cont">
@@ -42,7 +41,7 @@ function Navbar() {
                     {
                     user
                             ? <>
-                            <Link to="/profile">{getUsername(user.email)}</Link>
+                            <Link to="/profile" >{getUsername(user.email)}</Link>
                             <button onClick={handleLogout} className="logout">Logout</button>
                             </>
                             : <Link to="/login">Login</Link>
