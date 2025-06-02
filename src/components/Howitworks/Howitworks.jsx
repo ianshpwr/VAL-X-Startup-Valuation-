@@ -2,6 +2,7 @@ import worksdata from './../../assets/howitworks.json';
 import './howitworks.css';
 import Navbar from '../Navbar/Navbar';
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function DropdownDescription({ step, title, description }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,13 +18,14 @@ function DropdownDescription({ step, title, description }) {
 }
 
 function Howitworks() {
+    const navigate = useNavigate();
   return (
     <div className="howitworks">
         <Navbar />
         <section className='section1'>
           <h1>Startup Valuation Guide</h1>
           <h1>Learn how to value your startup, step by step.</h1>
-          <button>Back to Dashboard</button>
+          <button onClick={()=> navigate('/')}>Back to Dashboard</button>
         </section>
         <section className='section2'>
           <div>
