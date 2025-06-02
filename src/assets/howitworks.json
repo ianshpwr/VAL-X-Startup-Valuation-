@@ -1,0 +1,32 @@
+[
+  {
+    "step": 1,
+    "title": "Understand valuation basics",
+    "content": "Startup valuation is about estimating how much a startup is worth today, usually before it generates consistent revenue. Instead of profit, early valuations are driven by potential—factors like idea strength, market size, team quality, and projected growth."
+  },
+  {
+    "step": 2,
+    "title": "Factor in startup stage",
+    "content": "The valuation approach changes depending on the startup’s stage. Early-stage startups (idea or MVP phase) are typically valued using qualitative methods like the Berkus or Scorecard Method. Later-stage startups with revenues use financial metrics like revenue multiples or DCF."
+  },
+  {
+    "step": 3,
+    "title": "Check market & traction",
+    "content": "Investors examine how big the market is (TAM) and how fast you’re gaining traction. Metrics like user growth, recurring revenue, partnerships, and conversion rates help validate your product-market fit and future potential."
+  },
+  {
+    "step": 4,
+    "title": "Analyze key metrics",
+    "content": "Important financial metrics include CAC (Customer Acquisition Cost), LTV (Lifetime Value), Burn Rate, and Runway. A healthy LTV:CAC ratio (3:1 or better), along with low burn and a long runway, indicates a strong and sustainable business model."
+  },
+  {
+    "step": 5,
+    "title": "Team, product, IP strength",
+    "content": "A strong founding team with relevant experience, a well-built product, and any intellectual property (like patents or proprietary tech) can significantly increase valuation. Investors often invest in the team’s ability to execute, not just the idea."
+  },
+  {
+    "step": 6,
+    "title": "Ownership & dilution",
+    "content": "Startup equity is a delicate balance. Founders want control; investors want a fair stake. Understanding your cap table, how future funding rounds dilute shares, and using instruments like SAFEs or convertible notes helps align incentives and preserve ownership."
+  }
+]

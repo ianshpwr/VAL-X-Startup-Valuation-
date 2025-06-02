@@ -1,0 +1,19 @@
+html,body{
+  background-color: #121212;
+}
+
+.lpcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.landingpage-buttons{
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
