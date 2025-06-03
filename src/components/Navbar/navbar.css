@@ -5,12 +5,14 @@
 }
 
 body{
-  background-color: #1f1f1f;
+  /* background-color: #1f1f1f; */
+  background-color: 121212;
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
 .nav-cont{
-  background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
+  background-color: 121212;
   padding: 1rem 2rem;
   position: relative;
   z-index: 1000;

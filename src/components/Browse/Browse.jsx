@@ -37,13 +37,14 @@ const Browse = () => {
           <tr>
             <th>Name</th>
             <th>Industry</th>
+            <th>Country</th>
             <th>Valuation</th>
             <th>FundingRounds</th>
             <th>InvestmentAmount</th>
             <th>NumberofInvestors</th>
             <th>YearFounded</th>
             <th>GrowthRate</th>
-            <th>Country</th>
+
           </tr>
         </thead>
         <tbody>
@@ -51,13 +52,14 @@ const Browse = () => {
             <tr key={startup.id}>
               <td>{startup.StartupName}</td>
               <td>{startup.Industry}</td>
+                <td>{startup.Country}</td>
               <td>$ {startup.Valuation}</td>
                 <td>{startup.FundingRounds}</td>
                 <td>$ {startup.InvestmentAmount}</td>
                 <td>{startup.NumberofInvestors}</td>
                 <td>{startup.YearFounded}</td>
                 <td>{startup.GrowthRate}%</td>
-                <td>{startup.Country}</td>
+
             </tr>
           ))}
         </tbody>
