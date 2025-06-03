@@ -7,9 +7,11 @@ import Calculate from "./components/Calculate/Calculate";
 import Auth from "./components/Auth/Auth";
 import Browse from "./components/Browse/Browse";
 
+
 function App() {
   return (
     <div className="App">
+
     <Routes>
         <Route path="/" element={<Landingpage />} />
         <Route path="/learn" element={<Learn />} />
@@ -17,7 +19,6 @@ function App() {
         <Route path="/calculate" element={<Calculate />} />
         <Route path="/login" element={<Auth />} />
         <Route path="/browse" element={<Browse />} />
-        {/* Add more routes as needed */}
     </Routes>
     </div>
   );
